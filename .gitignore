@@ -1,0 +1,17 @@
+# Minecraft launcher profile backups - these hold account identifiers and can
+# hold session tokens. NEVER publish them.
+backup_*.json*
+fabric-installer-*.jar
+
+# glslang binaries - 13 MB of third-party tooling, not source
+tools/
+probe/
+
+# build output; the zip ships as a release asset, not in the tree
+_release/
+
+# scratch validation artefacts
+_tmp_check.glsl
+_tmp*.glsl
+__pycache__/
+*.pyc
